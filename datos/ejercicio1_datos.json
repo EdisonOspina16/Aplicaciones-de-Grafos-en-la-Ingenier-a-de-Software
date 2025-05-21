@@ -1,0 +1,33 @@
+{
+  "grafo": {
+    "frontend": {
+      "auth": 20,
+      "search": 50,
+      "log": 35
+    },
+    "auth": {
+      "db": 10,
+      "log": 5
+    },
+    "search": {
+      "db": 5,
+      "analytics": 40
+    },
+    "log": {
+      "analytics": 25
+    },
+    "db": {
+      "storage": 15,
+      "cache": 10
+    },
+    "analytics": {
+      "storage": 20
+    },
+    "cache": {
+      "storage": 5
+    },
+    "storage": {}
+  },
+  "origen": "frontend",
+  "destino": "storage"
+}

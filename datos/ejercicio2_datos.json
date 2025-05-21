@@ -1,0 +1,44 @@
+{
+  "grafo": {
+    "home": {
+      "login": 15,
+      "search": 12,
+      "faq": 8
+    },
+    "login": {
+      "dashboard": 10,
+      "recovery": 4
+    },
+    "recovery": {
+      "login": 2
+    },
+    "search": {
+      "product": 14,
+      "dashboard": 6
+    },
+    "product": {
+      "cart": 10,
+      "dashboard": 3
+    },
+    "faq": {
+      "search": 5
+    },
+    "dashboard": {
+      "profile": 6,
+      "settings": 5,
+      "checkout": 8
+    },
+    "profile": {
+      "checkout": 7
+    },
+    "settings": {
+      "checkout": 4
+    },
+    "cart": {
+      "checkout": 9
+    },
+    "checkout": {}
+  },
+  "inicio": "home",
+  "objetivo": "checkout"
+}
